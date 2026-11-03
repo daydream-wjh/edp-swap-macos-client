@@ -1,0 +1,5 @@
+{
+  "unfinished_transaction_restored": true,
+  "outside_partition_prefix_unchanged": true,
+  "recovery_is_idempotent": true
+}

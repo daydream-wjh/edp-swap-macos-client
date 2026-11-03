@@ -1,0 +1,19 @@
+{
+  "device": "disk4",
+  "total_size": 62914560000,
+  "regions": [
+    {
+      "region": "head",
+      "offset": 0,
+      "bytes": 32768,
+      "sha256": "0427ce7ac9d2de22ec773d61adf273ef008e8efa48127dce2b4fdb7dedb5acec"
+    },
+    {
+      "region": "tail",
+      "offset": 62914527232,
+      "bytes": 32768,
+      "sha256": "25ceae6642f706a78d180ce714f5019912e15f869ee40c905fe46484e6ddc7fd"
+    }
+  ],
+  "access": "O_RDONLY; total read 65536 bytes"
+}

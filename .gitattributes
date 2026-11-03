@@ -1,0 +1,26 @@
+# 统一换行，避免 macOS/Linux/Windows 交叉修改时整文件 diff
+* text=auto eol=lf
+
+# 可执行脚本必须保留 LF，否则 zsh/bash 报 bad interpreter
+*.command text eol=lf
+*.sh      text eol=lf
+*.py      text eol=lf
+*.swift   text eol=lf
+*.md      text eol=lf
+*.json    text eol=lf
+*.asm     text eol=lf
+
+# 二进制与图片
+*.png     binary
+*.pdf     binary
+*.dylib   binary
+*.dll     binary
+*.exe     binary
+*.sys     binary
+*.bin     binary
+*.raw     binary
+*.sqlite3 binary
+
+# 生成物不计入语言统计
+docs/整理迁移清单.json  linguist-generated
+docs/排除文件清单.json  linguist-generated

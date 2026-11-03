@@ -1,0 +1,3 @@
+PASS full readback: 4 write intervals, 16777216 verified bytes
+PASS injected readback failure: throws, full device SHA256 restored, journal rolledback
+PASS fixture unchanged; private temporary copies removed

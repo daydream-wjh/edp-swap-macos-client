@@ -1,0 +1,30 @@
+{
+  "device": "disk4",
+  "signature": "55aa",
+  "partitions": [
+    {
+      "index": 1,
+      "type": "0xb",
+      "lba_start": 63,
+      "sectors": 20417
+    },
+    {
+      "index": 2,
+      "type": "0x0",
+      "lba_start": 0,
+      "sectors": 0
+    },
+    {
+      "index": 3,
+      "type": "0x0",
+      "lba_start": 0,
+      "sectors": 0
+    },
+    {
+      "index": 4,
+      "type": "0x0",
+      "lba_start": 0,
+      "sectors": 0
+    }
+  ]
+}

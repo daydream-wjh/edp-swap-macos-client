@@ -1,0 +1,13 @@
+{
+  "filesystem": "TSK_FS_TYPE_EXFAT",
+  "root_entries": 20,
+  "root_directories": 1,
+  "exchange_bytes": 56598069248,
+  "actual_file_verified": true,
+  "file_bytes": 522016,
+  "file_sha256": "2d8230ce1d54db45dd74b6e2ed7d36797b2681a41ac58c270e2e3bc4d720cb6d",
+  "export_path": "outputs/交换区导出/样本-文件-01.pdf",
+  "source_parent": "",
+  "pdf_header_and_eof_valid": true,
+  "note": "文件名与路径已匿名化，sha256 为原文件内容哈希；导出文件本身不入库"
+}

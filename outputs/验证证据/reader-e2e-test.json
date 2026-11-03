@@ -1,0 +1,8 @@
+{
+  "wrong_password_rejected": true,
+  "encrypted_filesystem_opened": true,
+  "directory_listing_verified": true,
+  "download_content_verified": true,
+  "source_image_unchanged": true,
+  "cross_origin_post_rejected": true
+}

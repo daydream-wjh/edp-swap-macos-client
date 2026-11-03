@@ -1,0 +1,10 @@
+[
+  {
+    "identifier_form": "original",
+    "valid_magic": false
+  },
+  {
+    "identifier_form": "lowercase",
+    "valid_magic": false
+  }
+]

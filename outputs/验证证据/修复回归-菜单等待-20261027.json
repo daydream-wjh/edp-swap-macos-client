@@ -1,0 +1,14 @@
+[
+  {
+    "name": "success",
+    "exit": 0,
+    "seconds": 1.076684667,
+    "passed": true
+  },
+  {
+    "name": "failure",
+    "exit": 1,
+    "seconds": 1.063884917,
+    "passed": true
+  }
+]

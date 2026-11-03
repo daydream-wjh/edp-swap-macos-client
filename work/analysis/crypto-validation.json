@@ -1,0 +1,30 @@
+{
+  "driver_sha256": "98ef263b90699e9ad166d67b8cbfd3654b1a4f0400b8985c2db69837d6e33c4d",
+  "scope": "Pure routines under Unicorn; no OS/device emulation; synthetic data only",
+  "tests": [
+    {
+      "test": "AES-128 block encryption matches independent implementation",
+      "passed": true
+    },
+    {
+      "test": "AES-128 block decryption recovers synthetic plaintext",
+      "passed": true
+    },
+    {
+      "test": "Portable offset transform equals driver emulation and roundtrips at byte offset 0",
+      "passed": true
+    },
+    {
+      "test": "Portable offset transform equals driver emulation and roundtrips at byte offset 16",
+      "passed": true
+    },
+    {
+      "test": "Portable offset transform equals driver emulation and roundtrips at byte offset 512",
+      "passed": true
+    },
+    {
+      "test": "Portable offset transform equals driver emulation and roundtrips at byte offset 4294967808",
+      "passed": true
+    }
+  ]
+}

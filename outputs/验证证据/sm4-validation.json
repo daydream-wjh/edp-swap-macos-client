@@ -1,0 +1,7 @@
+{
+  "random_sm4_driver_cases": 10,
+  "normal_password_key_unwrap_matches_client": true,
+  "synthetic_buffer_mib": 1,
+  "elapsed_seconds": 0.007806500012520701,
+  "approx_mib_per_second": 128.098379350044
+}

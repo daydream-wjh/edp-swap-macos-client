@@ -1,0 +1,85 @@
+[
+  {
+    "from": "outputs/交换区读取完成报告.md",
+    "to": "docs/reports/交换区读取完成报告.md",
+    "sha256": {
+      ".": "bfc2fba25aeeb26bb1e03915dc6deed7152d18bc97dfd2df7b1f0b49252119d6"
+    }
+  },
+  {
+    "from": "outputs/技术文档-EDP交换区macOS客户端.md",
+    "to": "docs/reports/技术文档-EDP交换区macOS客户端.md",
+    "sha256": {
+      ".": "2f5ba79dbb86589c38b5d40e2ca43afae13fd1302cda13aa5c532f269e3f06d0"
+    }
+  },
+  {
+    "from": "outputs/阶段2_静态分析报告.md",
+    "to": "docs/reports/阶段2_静态分析报告.md",
+    "sha256": {
+      ".": "704c11debaf82d51cd663a716e5f3f166f0c71dae8a27f31d41873029efbfd96"
+    }
+  },
+  {
+    "from": "outputs/阶段3_驱动与挂载依赖.md",
+    "to": "docs/reports/阶段3_驱动与挂载依赖.md",
+    "sha256": {
+      ".": "d256c7a9924aa019534ef4b30debe440251491df80358bfceae2be096af599ea"
+    }
+  },
+  {
+    "from": "outputs/阶段4_登录调用链与设备权限.md",
+    "to": "docs/reports/阶段4_登录调用链与设备权限.md",
+    "sha256": {
+      ".": "f9dc89404d6dc153d640528e85eeb2691f07d777ca2b6032128a20c343ff3e0b"
+    }
+  },
+  {
+    "from": "outputs/阶段5_算法移植验证.md",
+    "to": "docs/reports/阶段5_算法移植验证.md",
+    "sha256": {
+      ".": "f6ccc646c90eb4f3d60137f3bc234eb656203f810ef936c60f795bbbb324e8dc"
+    }
+  },
+  {
+    "from": "outputs/阶段6_真实设备只读验证.md",
+    "to": "docs/reports/阶段6_真实设备只读验证.md",
+    "sha256": {
+      ".": "8d1167de3876ae23b139440b550d571586398af66b74fa5d7ab27bdf80bc4927"
+    }
+  },
+  {
+    "from": "outputs/修复备份-20261027",
+    "to": "archive/backups/修复备份-20261027",
+    "sha256": {
+      "EDP交换区.command": "6f1536556b632bb448e70ffeeba1ab08cf7a02433e32bce56ddc80cec43df9e5",
+      "U盘原版-EDP交换区.command": "6f1536556b632bb448e70ffeeba1ab08cf7a02433e32bce56ddc80cec43df9e5",
+      "U盘原版-edp-mount": "82fb18e76b1730f881e35b0782e3b6466cc002a9094f7225267315644afdb2a7",
+      "U盘原版-使用说明.txt": "3b66eddb5211243209fb3bb7e2f8434f83f68fe0432129115392f70a118d971b",
+      "edp-mount": "82fb18e76b1730f881e35b0782e3b6466cc002a9094f7225267315644afdb2a7",
+      "edp.swift": "67446742424d2802c8f2be5fa459402fadc4742a5d47cde0fda05ec346e72717",
+      "本机助手-edp-mount": "82fb18e76b1730f881e35b0782e3b6466cc002a9094f7225267315644afdb2a7"
+    }
+  },
+  {
+    "from": "outputs/启动程序源码/edp-mount.shipped-20261026-2136.bak",
+    "to": "archive/backups/edp-mount.shipped-20261026-2136.bak",
+    "sha256": {
+      ".": "f5f55e207a308738eec7ec2220e263db1c9b50315ed12c116cd9aa3184be4300"
+    }
+  },
+  {
+    "from": "outputs/交换区读写工具/mirror_server.py.bak-104341",
+    "to": "archive/backups/mirror_server.py.bak-104341",
+    "sha256": {
+      ".": "d75bc30f1cb6de56250287dc540f4fa691c29ac91ecab011e8ff3532944e2f1f"
+    }
+  },
+  {
+    "from": "outputs/启动程序源码/README.md",
+    "to": "docs/history/启动程序开发记录-整理前.md",
+    "sha256": {
+      ".": "3fdc39f48f191490da6047eee7b4671e48cfde1e58f7ea390e2c91d8905de407"
+    }
+  }
+]

@@ -1,0 +1,251 @@
+{
+  "device": "disk4",
+  "startup_fsck_exit": 0,
+  "started_local": "2026-10-27 16:26:33",
+  "before": {
+    "样本-文件-01.pdf": {
+      "size": 522016,
+      "sha256": "2d8230ce1d54db45dd74b6e2ed7d36797b2681a41ac58c270e2e3bc4d720cb6d"
+    },
+    "index.html": {
+      "size": 149881,
+      "sha256": "dbf9038550b8122539564fa016bf5315e9d57b9c5bad1d1a531ee08a3bc5cc3e"
+    },
+    "样本-文件-02.csv": {
+      "size": 17568,
+      "sha256": "b4fd1b59d13b8273d333c47a95a1d33629c9b3dccac34ae4f68eec2185f630e8"
+    },
+    "样本-文件-03.csv": {
+      "size": 53248,
+      "sha256": "b517a5b03fc9edd5193af031bb48215f503382f8050cc1996f9eee51114652fc"
+    },
+    "样本-文件-04.png": {
+      "size": 763833,
+      "sha256": "476b071630c45707c62f6e4f90bee0b8538decb588a6e248b3ff9e7c0984dbad"
+    },
+    "样本-文件-05.docx": {
+      "size": 121257,
+      "sha256": "1c20f6b993d9c1e450b5189cbf2f6f559c48d62cd4ded197ddea9918b4db21fa"
+    },
+    "样本-文件-06.png": {
+      "size": 229033,
+      "sha256": "810258911e0b78c15ea59612233fe29217742570feb0d0a13513f22987458987"
+    },
+    "样本-文件-07.csv": {
+      "size": 828,
+      "sha256": "c1ec591e343232a70e2a491d1000057ae6c68df46593f12f74f28c77de6b51e2"
+    },
+    "样本-文件-08.png": {
+      "size": 192185,
+      "sha256": "d18fba69208c266140a672df15874bb66e233f26115021cebc1b7a8c2f5da76a"
+    },
+    "样本-文件-09.zip": {
+      "size": 275657,
+      "sha256": "e75715342783278c3906b0e81f427e2064e97533e928b052a40d1bb1323a9fb7"
+    },
+    "样本-文件-10.png": {
+      "size": 218780,
+      "sha256": "e27602d0664b926d97620e5085de7fddb5ccf2ad459b97170696ebe569260b60"
+    },
+    "样本-文件-11.png": {
+      "size": 217788,
+      "sha256": "9d3b36f9eacb76fb9e978803cea0eaddb8ae858114a3b61fd9c28949a5ffdfb5"
+    },
+    "样本-文件-12.xlsx": {
+      "size": 16936,
+      "sha256": "116cfe0c51e846dc30f4af70425ae1dbb9c1d7259aa9bc7e6770e914615daf15"
+    },
+    "样本-文件-13.doc": {
+      "size": 4468830,
+      "sha256": "38bfe24e1009d1e7942162dfd525daa547e9d7f889d9b0915f78be68d6dbf59c"
+    },
+    "dsh-latest-windows-x64.exe": {
+      "size": 289415960,
+      "sha256": "1e3876baaa20c3f26371dba7b6873bb70c3ef9b91403f6d3f87d2b27d4fd1e3a"
+    },
+    "样本-测试-01.bin": {
+      "size": 209715200,
+      "sha256": "77c086cb29fb453f2a2b6397ab42ab79e226563da8145ecdbc6ae99afdfb1bb6"
+    },
+    "样本-文件-14.zip": {
+      "size": 41354242,
+      "sha256": "1abf8fbd811a35f0d5729c4477ccf987d83c5873cae51fa9fbcbaa0d492b45c7"
+    },
+    "样本-文件-15.zip": {
+      "size": 197801476,
+      "sha256": "652330742a71f5dd6001b1c91f3256ce4949e55a9fc6c342973742e0314e2b1a"
+    },
+    "DoubaoImeInstaller_v1000207_release_20261010_175807_23027789.zip": {
+      "size": 193367502,
+      "sha256": "0cef9fa739d52b7603298e5d15024936e157371f156539333b2356681c1b07bc"
+    },
+    "样本-测试-02.bin": {
+      "size": 209715200,
+      "sha256": "8648fa4d21a34a8568bf57278d0c8990aa0dfa1b80ee215efc21c3f7331abd99"
+    },
+    "样本-测试-04.bin": {
+      "size": 209715200,
+      "sha256": "97ea8029df32f80f78a13bf7a5f72ae6b66b23a1895e7e5fe124681c1bd23d63"
+    },
+    "样本-测试-03.bin": {
+      "size": 104857600,
+      "sha256": "1d71cf3730a63daa4d3fd8d3b0fb119bcf28e2f82b372050d60ea4ad28b731d6"
+    },
+    "样本-测试-05.bin": {
+      "size": 157286400,
+      "sha256": "ce20edfbdb137588316186a200eecb8a55074b3410c69d9431f10632caad3e5f"
+    }
+  },
+  "test_file": "Codex-U盘复测-162633.bin",
+  "save": {
+    "auto": false,
+    "error": "写入 U 盘失败",
+    "last_save_mb": 1.1298828125,
+    "last_save_mbs": 0.4351705180906837,
+    "last_save_secs": 2.5964139699935913,
+    "last_sync": {
+      "changed_bytes": 1184768,
+      "changed_sectors": 2314,
+      "journal": "20261027-162637-97763.jrn"
+    },
+    "mountpoint": "/Volumes/交换区",
+    "phase": "已加密保存到 U 盘，并完成写入回读校验",
+    "progress": 1,
+    "read_mbs": 0,
+    "read_total_mb": 11.125,
+    "running": true,
+    "save_bytes": 0,
+    "save_mb": 0,
+    "save_mbs": 0,
+    "save_total": 0,
+    "save_total_mb": 0,
+    "updated": 1793089605,
+    "write_mbs": 0.10673854715773745,
+    "write_total_mb": 1.1298828125
+  },
+  "readback_matches": true,
+  "delete_save": {
+    "auto": false,
+    "error": "写入 U 盘失败",
+    "last_save_mb": 1.1298828125,
+    "last_save_mbs": 0.4351705180906837,
+    "last_save_secs": 2.5964139699935913,
+    "last_sync": {
+      "changed_bytes": 1184768,
+      "changed_sectors": 2314,
+      "journal": "20261027-162637-97763.jrn"
+    },
+    "mountpoint": "/Volumes/交换区",
+    "phase": "已加密保存到 U 盘，并完成写入回读校验",
+    "progress": 1,
+    "read_mbs": 0,
+    "read_total_mb": 11.125,
+    "running": true,
+    "save_bytes": 0,
+    "save_mb": 0,
+    "save_mbs": 0,
+    "save_total": 0,
+    "save_total_mb": 0,
+    "updated": 1793089606,
+    "write_mbs": 0,
+    "write_total_mb": 1.1298828125
+  },
+  "after": {
+    "样本-文件-01.pdf": {
+      "size": 522016,
+      "sha256": "2d8230ce1d54db45dd74b6e2ed7d36797b2681a41ac58c270e2e3bc4d720cb6d"
+    },
+    "index.html": {
+      "size": 149881,
+      "sha256": "dbf9038550b8122539564fa016bf5315e9d57b9c5bad1d1a531ee08a3bc5cc3e"
+    },
+    "样本-文件-02.csv": {
+      "size": 17568,
+      "sha256": "b4fd1b59d13b8273d333c47a95a1d33629c9b3dccac34ae4f68eec2185f630e8"
+    },
+    "样本-文件-03.csv": {
+      "size": 53248,
+      "sha256": "b517a5b03fc9edd5193af031bb48215f503382f8050cc1996f9eee51114652fc"
+    },
+    "样本-文件-04.png": {
+      "size": 763833,
+      "sha256": "476b071630c45707c62f6e4f90bee0b8538decb588a6e248b3ff9e7c0984dbad"
+    },
+    "样本-文件-05.docx": {
+      "size": 121257,
+      "sha256": "1c20f6b993d9c1e450b5189cbf2f6f559c48d62cd4ded197ddea9918b4db21fa"
+    },
+    "样本-文件-06.png": {
+      "size": 229033,
+      "sha256": "810258911e0b78c15ea59612233fe29217742570feb0d0a13513f22987458987"
+    },
+    "样本-文件-07.csv": {
+      "size": 828,
+      "sha256": "c1ec591e343232a70e2a491d1000057ae6c68df46593f12f74f28c77de6b51e2"
+    },
+    "样本-文件-08.png": {
+      "size": 192185,
+      "sha256": "d18fba69208c266140a672df15874bb66e233f26115021cebc1b7a8c2f5da76a"
+    },
+    "样本-文件-09.zip": {
+      "size": 275657,
+      "sha256": "e75715342783278c3906b0e81f427e2064e97533e928b052a40d1bb1323a9fb7"
+    },
+    "样本-文件-10.png": {
+      "size": 218780,
+      "sha256": "e27602d0664b926d97620e5085de7fddb5ccf2ad459b97170696ebe569260b60"
+    },
+    "样本-文件-11.png": {
+      "size": 217788,
+      "sha256": "9d3b36f9eacb76fb9e978803cea0eaddb8ae858114a3b61fd9c28949a5ffdfb5"
+    },
+    "样本-文件-12.xlsx": {
+      "size": 16936,
+      "sha256": "116cfe0c51e846dc30f4af70425ae1dbb9c1d7259aa9bc7e6770e914615daf15"
+    },
+    "样本-文件-13.doc": {
+      "size": 4468830,
+      "sha256": "38bfe24e1009d1e7942162dfd525daa547e9d7f889d9b0915f78be68d6dbf59c"
+    },
+    "dsh-latest-windows-x64.exe": {
+      "size": 289415960,
+      "sha256": "1e3876baaa20c3f26371dba7b6873bb70c3ef9b91403f6d3f87d2b27d4fd1e3a"
+    },
+    "样本-测试-01.bin": {
+      "size": 209715200,
+      "sha256": "77c086cb29fb453f2a2b6397ab42ab79e226563da8145ecdbc6ae99afdfb1bb6"
+    },
+    "样本-文件-14.zip": {
+      "size": 41354242,
+      "sha256": "1abf8fbd811a35f0d5729c4477ccf987d83c5873cae51fa9fbcbaa0d492b45c7"
+    },
+    "样本-文件-15.zip": {
+      "size": 197801476,
+      "sha256": "652330742a71f5dd6001b1c91f3256ce4949e55a9fc6c342973742e0314e2b1a"
+    },
+    "DoubaoImeInstaller_v1000207_release_20261010_175807_23027789.zip": {
+      "size": 193367502,
+      "sha256": "0cef9fa739d52b7603298e5d15024936e157371f156539333b2356681c1b07bc"
+    },
+    "样本-测试-02.bin": {
+      "size": 209715200,
+      "sha256": "8648fa4d21a34a8568bf57278d0c8990aa0dfa1b80ee215efc21c3f7331abd99"
+    },
+    "样本-测试-04.bin": {
+      "size": 209715200,
+      "sha256": "97ea8029df32f80f78a13bf7a5f72ae6b66b23a1895e7e5fe124681c1bd23d63"
+    },
+    "样本-测试-03.bin": {
+      "size": 104857600,
+      "sha256": "1d71cf3730a63daa4d3fd8d3b0fb119bcf28e2f82b372050d60ea4ad28b731d6"
+    },
+    "样本-测试-05.bin": {
+      "size": 157286400,
+      "sha256": "ce20edfbdb137588316186a200eecb8a55074b3410c69d9431f10632caad3e5f"
+    }
+  },
+  "originals_unchanged": true,
+  "test_file_removed": true,
+  "result": "passed",
+  "finished_local": "2026-10-27 16:26:50"
+}

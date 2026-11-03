@@ -1,0 +1,15 @@
+{
+  "full_device": {
+    "exit": 0,
+    "stdout": "差异扇区数: 0  其中前 3MB(FAT区)内: 0\n",
+    "stderr": ""
+  },
+  "truncated_device": {
+    "exit": 0,
+    "stdout": "差异扇区数: 0  其中前 3MB(FAT区)内: 0\n",
+    "stderr": ""
+  },
+  "remaining_device_bytes": 33280,
+  "expected_device_bytes": 63991808,
+  "false_success_reproduced": true
+}

@@ -1,0 +1,580 @@
+{
+  "started_local": "2026-10-27 16:30:39",
+  "saves": {
+    "new_128mib": {
+      "seconds_wall": 16.915647417000002,
+      "seconds_reported": 9.071016907691956,
+      "mib_reported": 128.38134765625,
+      "mib_s_reported": 14.152916807749127,
+      "changed_bytes": 134617600,
+      "phase": "已加密保存到 U 盘，并完成写入回读校验",
+      "retained_error": "写入 U 盘失败"
+    },
+    "overwrite_and_create": {
+      "seconds_wall": 18.990997708000002,
+      "seconds_reported": 4.8653810024261475,
+      "mib_reported": 17.126953125,
+      "mib_s_reported": 3.520166892676967,
+      "changed_bytes": 17958912,
+      "phase": "已加密保存到 U 盘，并完成写入回读校验",
+      "retained_error": "写入 U 盘失败"
+    },
+    "rename_truncate_nested_zero": {
+      "seconds_wall": 11.191494333000001,
+      "seconds_reported": 2.940137028694153,
+      "mib_reported": 6.876953125,
+      "mib_s_reported": 2.3389906857689433,
+      "changed_bytes": 7211008,
+      "phase": "已加密保存到 U 盘，并完成写入回读校验",
+      "retained_error": "写入 U 盘失败"
+    },
+    "no_op": {
+      "seconds_wall": 17.321992207999998,
+      "seconds_reported": 2.6267789602279663,
+      "mib_reported": 0,
+      "mib_s_reported": 0,
+      "changed_bytes": 0,
+      "phase": "已加密保存到 U 盘，并完成写入回读校验",
+      "retained_error": "写入 U 盘失败"
+    }
+  },
+  "checks": {
+    "large_file_readback": true,
+    "truncate_exact": true,
+    "rename_source_absent": true,
+    "no_op_zero_changes": true,
+    "originals_unchanged_before_remount": true,
+    "fresh_device_test_files_exact": true,
+    "fresh_device_originals_unchanged": true,
+    "fresh_device_file_count": true
+  },
+  "scope": "real USB; no unplug/crash injection",
+  "originals_before": {
+    "样本-文件-01.pdf": {
+      "size": 522016,
+      "sha256": "2d8230ce1d54db45dd74b6e2ed7d36797b2681a41ac58c270e2e3bc4d720cb6d"
+    },
+    "index.html": {
+      "size": 149881,
+      "sha256": "dbf9038550b8122539564fa016bf5315e9d57b9c5bad1d1a531ee08a3bc5cc3e"
+    },
+    "样本-文件-02.csv": {
+      "size": 17568,
+      "sha256": "b4fd1b59d13b8273d333c47a95a1d33629c9b3dccac34ae4f68eec2185f630e8"
+    },
+    "样本-文件-03.csv": {
+      "size": 53248,
+      "sha256": "b517a5b03fc9edd5193af031bb48215f503382f8050cc1996f9eee51114652fc"
+    },
+    "样本-文件-04.png": {
+      "size": 763833,
+      "sha256": "476b071630c45707c62f6e4f90bee0b8538decb588a6e248b3ff9e7c0984dbad"
+    },
+    "样本-文件-05.docx": {
+      "size": 121257,
+      "sha256": "1c20f6b993d9c1e450b5189cbf2f6f559c48d62cd4ded197ddea9918b4db21fa"
+    },
+    "样本-文件-06.png": {
+      "size": 229033,
+      "sha256": "810258911e0b78c15ea59612233fe29217742570feb0d0a13513f22987458987"
+    },
+    "样本-文件-07.csv": {
+      "size": 828,
+      "sha256": "c1ec591e343232a70e2a491d1000057ae6c68df46593f12f74f28c77de6b51e2"
+    },
+    "样本-文件-08.png": {
+      "size": 192185,
+      "sha256": "d18fba69208c266140a672df15874bb66e233f26115021cebc1b7a8c2f5da76a"
+    },
+    "样本-文件-09.zip": {
+      "size": 275657,
+      "sha256": "e75715342783278c3906b0e81f427e2064e97533e928b052a40d1bb1323a9fb7"
+    },
+    "样本-文件-10.png": {
+      "size": 218780,
+      "sha256": "e27602d0664b926d97620e5085de7fddb5ccf2ad459b97170696ebe569260b60"
+    },
+    "样本-文件-11.png": {
+      "size": 217788,
+      "sha256": "9d3b36f9eacb76fb9e978803cea0eaddb8ae858114a3b61fd9c28949a5ffdfb5"
+    },
+    "样本-文件-12.xlsx": {
+      "size": 16936,
+      "sha256": "116cfe0c51e846dc30f4af70425ae1dbb9c1d7259aa9bc7e6770e914615daf15"
+    },
+    "样本-文件-13.doc": {
+      "size": 4468830,
+      "sha256": "38bfe24e1009d1e7942162dfd525daa547e9d7f889d9b0915f78be68d6dbf59c"
+    },
+    "dsh-latest-windows-x64.exe": {
+      "size": 289415960,
+      "sha256": "1e3876baaa20c3f26371dba7b6873bb70c3ef9b91403f6d3f87d2b27d4fd1e3a"
+    },
+    "样本-测试-01.bin": {
+      "size": 209715200,
+      "sha256": "77c086cb29fb453f2a2b6397ab42ab79e226563da8145ecdbc6ae99afdfb1bb6"
+    },
+    "样本-文件-14.zip": {
+      "size": 41354242,
+      "sha256": "1abf8fbd811a35f0d5729c4477ccf987d83c5873cae51fa9fbcbaa0d492b45c7"
+    },
+    "样本-文件-15.zip": {
+      "size": 197801476,
+      "sha256": "652330742a71f5dd6001b1c91f3256ce4949e55a9fc6c342973742e0314e2b1a"
+    },
+    "DoubaoImeInstaller_v1000207_release_20261010_175807_23027789.zip": {
+      "size": 193367502,
+      "sha256": "0cef9fa739d52b7603298e5d15024936e157371f156539333b2356681c1b07bc"
+    },
+    "样本-测试-02.bin": {
+      "size": 209715200,
+      "sha256": "8648fa4d21a34a8568bf57278d0c8990aa0dfa1b80ee215efc21c3f7331abd99"
+    },
+    "样本-测试-04.bin": {
+      "size": 209715200,
+      "sha256": "97ea8029df32f80f78a13bf7a5f72ae6b66b23a1895e7e5fe124681c1bd23d63"
+    },
+    "样本-测试-03.bin": {
+      "size": 104857600,
+      "sha256": "1d71cf3730a63daa4d3fd8d3b0fb119bcf28e2f82b372050d60ea4ad28b731d6"
+    },
+    "样本-测试-05.bin": {
+      "size": 157286400,
+      "sha256": "ce20edfbdb137588316186a200eecb8a55074b3410c69d9431f10632caad3e5f"
+    }
+  },
+  "workspace_write_seconds": 0.14706208399999998,
+  "workspace_write_mib_s": 870.3807026153663,
+  "workspace_read_seconds": 0.04995908399999749,
+  "workspace_read_mib_s": 2562.0966149020355,
+  "test_expected": {
+    "修改后缩短.txt": {
+      "size": 19,
+      "sha256": "df093f39d28e98ad5fbcc9b4c14fd1d1d9e0478f39b1329b97c5a3a56a518d92"
+    },
+    "._修改后缩短.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "._含空格 中文 😀": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/._子目录": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/重命名后.bin": {
+      "size": 134217728,
+      "sha256": "1974426e8213bd38a8c769598a6f2bed0a617b47523ae24bf237b252b74682cb"
+    },
+    "含空格 中文 😀/子目录/._重命名后.bin": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/空文件.txt": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "含空格 中文 😀/子目录/._空文件.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/零字节数据.bin": {
+      "size": 1048576,
+      "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58"
+    },
+    "含空格 中文 😀/子目录/._零字节数据.bin": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 00.txt": {
+      "size": 16,
+      "sha256": "3af890746b9fd7686a423bc6b0635ed0d31797b61e86526b5d5cfd1fbcd23d2d"
+    },
+    "含空格 中文 😀/子目录/._小文件 00.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 01.txt": {
+      "size": 16,
+      "sha256": "52cc9c326c0715554acd4876362c4bd31795dd3dd95efc3612db600e09117f77"
+    },
+    "含空格 中文 😀/子目录/._小文件 01.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 02.txt": {
+      "size": 16,
+      "sha256": "4e206150d4db4dc00ac32cef7c16fe47d8160dcdb4da0dc2d3669712251c68d5"
+    },
+    "含空格 中文 😀/子目录/._小文件 02.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 03.txt": {
+      "size": 16,
+      "sha256": "fa4f6df1d00c2a340a064e76f84f607882496141e4dae001d4190319f80818d3"
+    },
+    "含空格 中文 😀/子目录/._小文件 03.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 04.txt": {
+      "size": 16,
+      "sha256": "64ea4fd93483b6e61a47c08332250a0179040726af0b02c7de67d0d0b231e03d"
+    },
+    "含空格 中文 😀/子目录/._小文件 04.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 05.txt": {
+      "size": 16,
+      "sha256": "f76547e5ba5903e05df9a926cc826e870bb5d383d9d6aba816e3cb7e07ae3be9"
+    },
+    "含空格 中文 😀/子目录/._小文件 05.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 06.txt": {
+      "size": 16,
+      "sha256": "7f5fa5e463b36c15ba0dfb6036f170291eb5a01f0f112e87a0a3a2b272a8cc38"
+    },
+    "含空格 中文 😀/子目录/._小文件 06.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 07.txt": {
+      "size": 16,
+      "sha256": "6483ec8e4025efa577ac01a7bd65277b1ccb88fbc53f25130464dcffb7002135"
+    },
+    "含空格 中文 😀/子目录/._小文件 07.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 08.txt": {
+      "size": 16,
+      "sha256": "a58fe53dfb12aa296c7f4803ab80a80cbb9c12b3d1b50f611a627597fa1e0171"
+    },
+    "含空格 中文 😀/子目录/._小文件 08.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 09.txt": {
+      "size": 16,
+      "sha256": "1ab18b663d81d2512db82359d6f28bd61dd5cc3c3eb52e83b8db0a9c0989a272"
+    },
+    "含空格 中文 😀/子目录/._小文件 09.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 10.txt": {
+      "size": 17,
+      "sha256": "a5bab0fdf45d94e575f71e3adf81012f6207e8ac916df75642ed018d2b21f6a2"
+    },
+    "含空格 中文 😀/子目录/._小文件 10.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 11.txt": {
+      "size": 17,
+      "sha256": "1d5f330a916b9082f48c8cc83119da1b35d658f070aefb2691f97ed4f68ce358"
+    },
+    "含空格 中文 😀/子目录/._小文件 11.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 12.txt": {
+      "size": 17,
+      "sha256": "fd5da114618ac98c65a34001aec6170b0a69c3ec46e8f547b02679fd11d4d87e"
+    },
+    "含空格 中文 😀/子目录/._小文件 12.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 13.txt": {
+      "size": 17,
+      "sha256": "d96fcb79e77f401f094fdd1a7bfbf6c9935b4513f271d655ca3096c3a9c35b56"
+    },
+    "含空格 中文 😀/子目录/._小文件 13.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 14.txt": {
+      "size": 17,
+      "sha256": "bff043afda54c2e9210622ace33c4011475d87424a41d65f598ee67110292e78"
+    },
+    "含空格 中文 😀/子目录/._小文件 14.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 15.txt": {
+      "size": 17,
+      "sha256": "146bba00785865d32a4e3a2bebe5fa1227e7596226558d4138c930e7c659f3c7"
+    },
+    "含空格 中文 😀/子目录/._小文件 15.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 16.txt": {
+      "size": 17,
+      "sha256": "9447b35e3767fe83240fa63f5200e340a1b448f3b3bf275659e500b07ac544fc"
+    },
+    "含空格 中文 😀/子目录/._小文件 16.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 17.txt": {
+      "size": 17,
+      "sha256": "5b64dc49433e9f4d6af5d255183b5a90e5b482b6aa61adad9227bbd487acdb46"
+    },
+    "含空格 中文 😀/子目录/._小文件 17.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 18.txt": {
+      "size": 17,
+      "sha256": "781f75aa8d8385c6b178c41029c3e6418ab5af9a7bbb4ab11bf6927c828646d4"
+    },
+    "含空格 中文 😀/子目录/._小文件 18.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "含空格 中文 😀/子目录/小文件 19.txt": {
+      "size": 17,
+      "sha256": "3811f049498a7d66d7e48394060ecce83dc252d404a1234e6e95e55993f3dd0c"
+    },
+    "含空格 中文 😀/子目录/._小文件 19.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    }
+  },
+  "originals_after_operations": {
+    "样本-文件-01.pdf": {
+      "size": 522016,
+      "sha256": "2d8230ce1d54db45dd74b6e2ed7d36797b2681a41ac58c270e2e3bc4d720cb6d"
+    },
+    "index.html": {
+      "size": 149881,
+      "sha256": "dbf9038550b8122539564fa016bf5315e9d57b9c5bad1d1a531ee08a3bc5cc3e"
+    },
+    "样本-文件-02.csv": {
+      "size": 17568,
+      "sha256": "b4fd1b59d13b8273d333c47a95a1d33629c9b3dccac34ae4f68eec2185f630e8"
+    },
+    "样本-文件-03.csv": {
+      "size": 53248,
+      "sha256": "b517a5b03fc9edd5193af031bb48215f503382f8050cc1996f9eee51114652fc"
+    },
+    "样本-文件-04.png": {
+      "size": 763833,
+      "sha256": "476b071630c45707c62f6e4f90bee0b8538decb588a6e248b3ff9e7c0984dbad"
+    },
+    "样本-文件-05.docx": {
+      "size": 121257,
+      "sha256": "1c20f6b993d9c1e450b5189cbf2f6f559c48d62cd4ded197ddea9918b4db21fa"
+    },
+    "样本-文件-06.png": {
+      "size": 229033,
+      "sha256": "810258911e0b78c15ea59612233fe29217742570feb0d0a13513f22987458987"
+    },
+    "样本-文件-07.csv": {
+      "size": 828,
+      "sha256": "c1ec591e343232a70e2a491d1000057ae6c68df46593f12f74f28c77de6b51e2"
+    },
+    "样本-文件-08.png": {
+      "size": 192185,
+      "sha256": "d18fba69208c266140a672df15874bb66e233f26115021cebc1b7a8c2f5da76a"
+    },
+    "样本-文件-09.zip": {
+      "size": 275657,
+      "sha256": "e75715342783278c3906b0e81f427e2064e97533e928b052a40d1bb1323a9fb7"
+    },
+    "样本-文件-10.png": {
+      "size": 218780,
+      "sha256": "e27602d0664b926d97620e5085de7fddb5ccf2ad459b97170696ebe569260b60"
+    },
+    "样本-文件-11.png": {
+      "size": 217788,
+      "sha256": "9d3b36f9eacb76fb9e978803cea0eaddb8ae858114a3b61fd9c28949a5ffdfb5"
+    },
+    "样本-文件-12.xlsx": {
+      "size": 16936,
+      "sha256": "116cfe0c51e846dc30f4af70425ae1dbb9c1d7259aa9bc7e6770e914615daf15"
+    },
+    "样本-文件-13.doc": {
+      "size": 4468830,
+      "sha256": "38bfe24e1009d1e7942162dfd525daa547e9d7f889d9b0915f78be68d6dbf59c"
+    },
+    "dsh-latest-windows-x64.exe": {
+      "size": 289415960,
+      "sha256": "1e3876baaa20c3f26371dba7b6873bb70c3ef9b91403f6d3f87d2b27d4fd1e3a"
+    },
+    "样本-测试-01.bin": {
+      "size": 209715200,
+      "sha256": "77c086cb29fb453f2a2b6397ab42ab79e226563da8145ecdbc6ae99afdfb1bb6"
+    },
+    "样本-文件-14.zip": {
+      "size": 41354242,
+      "sha256": "1abf8fbd811a35f0d5729c4477ccf987d83c5873cae51fa9fbcbaa0d492b45c7"
+    },
+    "样本-文件-15.zip": {
+      "size": 197801476,
+      "sha256": "652330742a71f5dd6001b1c91f3256ce4949e55a9fc6c342973742e0314e2b1a"
+    },
+    "DoubaoImeInstaller_v1000207_release_20261010_175807_23027789.zip": {
+      "size": 193367502,
+      "sha256": "0cef9fa739d52b7603298e5d15024936e157371f156539333b2356681c1b07bc"
+    },
+    "样本-测试-02.bin": {
+      "size": 209715200,
+      "sha256": "8648fa4d21a34a8568bf57278d0c8990aa0dfa1b80ee215efc21c3f7331abd99"
+    },
+    "样本-测试-04.bin": {
+      "size": 209715200,
+      "sha256": "97ea8029df32f80f78a13bf7a5f72ae6b66b23a1895e7e5fe124681c1bd23d63"
+    },
+    "样本-测试-03.bin": {
+      "size": 104857600,
+      "sha256": "1d71cf3730a63daa4d3fd8d3b0fb119bcf28e2f82b372050d60ea4ad28b731d6"
+    },
+    "样本-测试-05.bin": {
+      "size": 157286400,
+      "sha256": "ce20edfbdb137588316186a200eecb8a55074b3410c69d9431f10632caad3e5f"
+    }
+  },
+  "status": "passed_real_device_tests",
+  "fresh_device_import": {
+    "seconds_including_launch": 51.97467303276062,
+    "device_read_mib": 4045.6774501800537,
+    "note": "新建独立工作区，从原始设备读取并解密，再写入本机镜像；包含启动、解密和本机写入开销",
+    "mib_s_end_to_end": 77.83940165684133
+  },
+  "fresh_device_originals": {
+    "样本-文件-01.pdf": {
+      "size": 522016,
+      "sha256": "2d8230ce1d54db45dd74b6e2ed7d36797b2681a41ac58c270e2e3bc4d720cb6d"
+    },
+    "index.html": {
+      "size": 149881,
+      "sha256": "dbf9038550b8122539564fa016bf5315e9d57b9c5bad1d1a531ee08a3bc5cc3e"
+    },
+    "样本-文件-02.csv": {
+      "size": 17568,
+      "sha256": "b4fd1b59d13b8273d333c47a95a1d33629c9b3dccac34ae4f68eec2185f630e8"
+    },
+    "样本-文件-03.csv": {
+      "size": 53248,
+      "sha256": "b517a5b03fc9edd5193af031bb48215f503382f8050cc1996f9eee51114652fc"
+    },
+    "样本-文件-04.png": {
+      "size": 763833,
+      "sha256": "476b071630c45707c62f6e4f90bee0b8538decb588a6e248b3ff9e7c0984dbad"
+    },
+    "样本-文件-05.docx": {
+      "size": 121257,
+      "sha256": "1c20f6b993d9c1e450b5189cbf2f6f559c48d62cd4ded197ddea9918b4db21fa"
+    },
+    "样本-文件-06.png": {
+      "size": 229033,
+      "sha256": "810258911e0b78c15ea59612233fe29217742570feb0d0a13513f22987458987"
+    },
+    "样本-文件-07.csv": {
+      "size": 828,
+      "sha256": "c1ec591e343232a70e2a491d1000057ae6c68df46593f12f74f28c77de6b51e2"
+    },
+    "样本-文件-08.png": {
+      "size": 192185,
+      "sha256": "d18fba69208c266140a672df15874bb66e233f26115021cebc1b7a8c2f5da76a"
+    },
+    "样本-文件-09.zip": {
+      "size": 275657,
+      "sha256": "e75715342783278c3906b0e81f427e2064e97533e928b052a40d1bb1323a9fb7"
+    },
+    "样本-文件-10.png": {
+      "size": 218780,
+      "sha256": "e27602d0664b926d97620e5085de7fddb5ccf2ad459b97170696ebe569260b60"
+    },
+    "样本-文件-11.png": {
+      "size": 217788,
+      "sha256": "9d3b36f9eacb76fb9e978803cea0eaddb8ae858114a3b61fd9c28949a5ffdfb5"
+    },
+    "样本-文件-12.xlsx": {
+      "size": 16936,
+      "sha256": "116cfe0c51e846dc30f4af70425ae1dbb9c1d7259aa9bc7e6770e914615daf15"
+    },
+    "样本-文件-13.doc": {
+      "size": 4468830,
+      "sha256": "38bfe24e1009d1e7942162dfd525daa547e9d7f889d9b0915f78be68d6dbf59c"
+    },
+    "dsh-latest-windows-x64.exe": {
+      "size": 289415960,
+      "sha256": "1e3876baaa20c3f26371dba7b6873bb70c3ef9b91403f6d3f87d2b27d4fd1e3a"
+    },
+    "样本-测试-01.bin": {
+      "size": 209715200,
+      "sha256": "77c086cb29fb453f2a2b6397ab42ab79e226563da8145ecdbc6ae99afdfb1bb6"
+    },
+    "样本-文件-14.zip": {
+      "size": 41354242,
+      "sha256": "1abf8fbd811a35f0d5729c4477ccf987d83c5873cae51fa9fbcbaa0d492b45c7"
+    },
+    "样本-文件-15.zip": {
+      "size": 197801476,
+      "sha256": "652330742a71f5dd6001b1c91f3256ce4949e55a9fc6c342973742e0314e2b1a"
+    },
+    "DoubaoImeInstaller_v1000207_release_20261010_175807_23027789.zip": {
+      "size": 193367502,
+      "sha256": "0cef9fa739d52b7603298e5d15024936e157371f156539333b2356681c1b07bc"
+    },
+    "样本-测试-02.bin": {
+      "size": 209715200,
+      "sha256": "8648fa4d21a34a8568bf57278d0c8990aa0dfa1b80ee215efc21c3f7331abd99"
+    },
+    "样本-测试-04.bin": {
+      "size": 209715200,
+      "sha256": "97ea8029df32f80f78a13bf7a5f72ae6b66b23a1895e7e5fe124681c1bd23d63"
+    },
+    "样本-测试-03.bin": {
+      "size": 104857600,
+      "sha256": "1d71cf3730a63daa4d3fd8d3b0fb119bcf28e2f82b372050d60ea4ad28b731d6"
+    },
+    "样本-测试-05.bin": {
+      "size": 157286400,
+      "sha256": "ce20edfbdb137588316186a200eecb8a55074b3410c69d9431f10632caad3e5f"
+    }
+  },
+  "cleanup": {
+    "temporary_directory_removed": true,
+    "save_phase": "已加密保存到 U 盘，并完成写入回读校验",
+    "changed_bytes": 8192,
+    "absent_after_normal_remount": true
+  },
+  "finished_local": "2026-10-27 16:35:33",
+  "tool_sha256": "82fb18e76b1730f881e35b0782e3b6466cc002a9094f7225267315644afdb2a7",
+  "issues": [
+    {
+      "priority": "P1",
+      "issue": "verify 在读取不完整时仍报告差异为零并以 0 退出",
+      "reproduction": "隔离模拟设备从 63991808 字节截断到 33280 字节，verify 仍返回差异扇区数 0；真实 U 盘未做故障注入",
+      "source_line": 1513
+    },
+    {
+      "priority": "P2",
+      "issue": "大文件只抽样回读，成功提示未区分抽样与完整验证",
+      "source_line": 1048
+    },
+    {
+      "priority": "P2",
+      "issue": "成功保存后 error 字段残留旧的写入失败信息",
+      "source_line": 1345
+    },
+    {
+      "priority": "P2",
+      "issue": "全局 sync 导致保存前等待，显示耗时不包含这段时间",
+      "source_line": 1316
+    }
+  ],
+  "normal_session_restored": true,
+  "temporary_plaintext_images_removed": true
+}

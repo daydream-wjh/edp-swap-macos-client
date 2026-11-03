@@ -1,0 +1,133 @@
+{
+  "saves": {
+    "new_128mib": {
+      "seconds_wall": 32.779331875,
+      "seconds_reported": 20.165537749999203,
+      "mib_s_reported": 6.366470479134883,
+      "last_sync": {
+        "changed_bytes": 134619648,
+        "changed_sectors": 262929,
+        "journal": "20261027-165238-58385.jrn",
+        "verification": "full_changed_ranges",
+        "verified_bytes": 134619648
+      },
+      "error": "",
+      "phase": "已加密保存到 U 盘，并完整回读全部改动数据"
+    },
+    "overwrite_and_create": {
+      "seconds_wall": 22.818020834000002,
+      "seconds_reported": 15.01379470833308,
+      "mib_s_reported": 0.208304527070307,
+      "last_sync": {
+        "changed_bytes": 3279360,
+        "changed_sectors": 6405,
+        "journal": "20261027-165306-86533.jrn",
+        "verification": "full_changed_ranges",
+        "verified_bytes": 3279360
+      },
+      "error": "",
+      "phase": "已加密保存到 U 盘，并完整回读全部改动数据"
+    },
+    "rename_truncate_zero": {
+      "seconds_wall": 10.490078624999995,
+      "seconds_reported": 10.33312983333235,
+      "mib_s_reported": 0.1574501773656047,
+      "last_sync": {
+        "changed_bytes": 1705984,
+        "changed_sectors": 3332,
+        "journal": "20261027-165321-1802.jrn",
+        "verification": "full_changed_ranges",
+        "verified_bytes": 1705984
+      },
+      "error": "",
+      "phase": "已加密保存到 U 盘，并完整回读全部改动数据"
+    },
+    "no_change": {
+      "seconds_wall": 18.450385333,
+      "seconds_reported": 10.310418416665925,
+      "mib_s_reported": 9.47160881872135e-05,
+      "last_sync": {
+        "changed_bytes": 1024,
+        "changed_sectors": 2,
+        "journal": "20261027-165340-20255.jrn",
+        "verification": "full_changed_ranges",
+        "verified_bytes": 1024
+      },
+      "error": "",
+      "phase": "已加密保存到 U 盘，并完整回读全部改动数据"
+    },
+    "no_change_retry": {
+      "seconds_wall": 11.053571082999994,
+      "seconds_reported": 10.765393833333292,
+      "mib_s_reported": 0,
+      "last_sync": {
+        "changed_bytes": 0,
+        "changed_sectors": 0,
+        "journal": ""
+      },
+      "error": "",
+      "phase": "已加密保存检查完成：无改动，本轮未写入"
+    }
+  },
+  "checks": {
+    "old_mount_error_cleared": true,
+    "originals_before_match": true,
+    "new_128mib_error_cleared": true,
+    "new_128mib_full_readback": true,
+    "new_128mib_timing_includes_wait": false,
+    "new_file_hash_matches": true,
+    "overwrite_and_create_error_cleared": true,
+    "overwrite_and_create_full_readback": true,
+    "overwrite_and_create_timing_includes_wait": false,
+    "rename_truncate_zero_error_cleared": true,
+    "rename_truncate_zero_full_readback": true,
+    "rename_truncate_zero_timing_includes_wait": true,
+    "no_change_error_cleared": true,
+    "no_change_full_readback": true,
+    "no_change_timing_includes_wait": false,
+    "no_change_retry_error_cleared": true,
+    "no_change_retry_timing_includes_wait": true,
+    "no_change_detected": true,
+    "originals_after_match": true
+  },
+  "started": "2026-10-27 16:52:22",
+  "expected": {
+    "缩短.txt": {
+      "size": 16,
+      "sha256": "6d54c3af53e6e668ed12e5d8a1c7c7a05005007a5e1e1dea661a8587b75c6bd2"
+    },
+    "._缩短.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "._中文 空格 😀": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "中文 空格 😀/重命名.bin": {
+      "size": 134217728,
+      "sha256": "892dc0d50a732140ff3ff3290ece702e5741d760e7a9d402bc9050879763985e"
+    },
+    "中文 空格 😀/._重命名.bin": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "中文 空格 😀/空文件.txt": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "中文 空格 😀/._空文件.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "中文 空格 😀/全零.bin": {
+      "size": 1048576,
+      "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58"
+    },
+    "中文 空格 😀/._全零.bin": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    }
+  },
+  "status": "awaiting_independent_device_remount"
+}

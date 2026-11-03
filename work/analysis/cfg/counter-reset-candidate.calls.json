@@ -1,0 +1,42 @@
+[
+  {
+    "va": "0x1002ae68",
+    "target": "0x10012750"
+  },
+  {
+    "va": "0x1002afde",
+    "target": "0x10048939"
+  },
+  {
+    "va": "0x1002af9f",
+    "target": "dword ptr [0x10068308]"
+  },
+  {
+    "va": "0x1002afb0",
+    "target": "0x10003170"
+  },
+  {
+    "va": "0x1002afbf",
+    "target": "0x100032a0"
+  },
+  {
+    "va": "0x1002af4f",
+    "target": "0x1002b360"
+  },
+  {
+    "va": "0x1002af58",
+    "target": "dword ptr [0x10068308]"
+  },
+  {
+    "va": "0x1002af97",
+    "target": "dword ptr [0x100682f0]"
+  },
+  {
+    "va": "0x1002af7b",
+    "target": "0x10003170"
+  },
+  {
+    "va": "0x1002af8a",
+    "target": "0x100032a0"
+  }
+]

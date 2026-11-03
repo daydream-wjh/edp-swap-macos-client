@@ -1,0 +1,26 @@
+PASS mount synthetic volume  /Volumes/CodexRWTest
+PASS new session clears old error
+PASS successful save clears error
+PASS full readback covers all changed bytes
+PASS basic save completed  已加密保存到 U 盘，并完整回读全部改动数据
+PASS post-save verify has 0 diffs
+PASS discard quit (unsaved edits kept in workspace)
+PASS workspace has unsaved edits  changed sectors=49198
+PASS crafted crash journal written  49198 sectors
+PASS recovery rolled back unfinished journal
+PASS journal archived as .rolledback
+PASS device baseline-used ranges restored
+PASS workspace edits preserved (big.bin visible)
+PASS post-recovery verify has 0 diffs
+PASS re-save after recovery completed  已加密保存到 U 盘，并完整回读全部改动数据
+PASS device now holds the preserved edits
+PASS mid-save edit not lost  preserved as diff (2 sectors)
+PASS second save persists mid-save edit
+PASS final verify has 0 diffs
+PASS device plaintext contains mid-save content
+PASS stale journal archived as .stale
+PASS mismatched journal aborts mount  exit=1
+PASS mismatch error message
+PASS device not modified on mismatch abort
+
+==== RESULT: 24 passed, 0 failed ====

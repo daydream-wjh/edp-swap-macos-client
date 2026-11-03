@@ -1,0 +1,28 @@
+{
+  "valid": {
+    "exit": 0,
+    "stdout": "差异扇区数: 0  其中前 3MB(FAT区)内: 0\n",
+    "stderr": ""
+  },
+  "data_mismatch": {
+    "exit": 1,
+    "stdout": "差异扇区数: 1  其中前 3MB(FAT区)内: 1\n  offset=512  基线:0000000000000000000000000000000000000000000000000000000000000000  盘:4193f2c29c5af46758bacf0138112e6400000000000000000000000000000000\n",
+    "stderr": ""
+  },
+  "device_short_aligned": {
+    "exit": 1,
+    "stdout": "",
+    "stderr": "错误: 设备读取不完整，校验失败（偏移 0）\n"
+  },
+  "device_short_unaligned": {
+    "exit": 1,
+    "stdout": "",
+    "stderr": "错误: 设备读取不完整，校验失败（偏移 0）\n"
+  },
+  "baseline_short": {
+    "exit": 1,
+    "stdout": "",
+    "stderr": "错误: Valid allocation bitmap not found\n"
+  },
+  "passed": true
+}

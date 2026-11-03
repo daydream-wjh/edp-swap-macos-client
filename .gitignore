@@ -1,0 +1,63 @@
+# ---------------------------------------------------------------
+# 本仓库只收源码、文档与可复现证据。
+# 设备镜像、真实设备数据、厂商二进制、本机环境不进版本库。
+# 逐项原因与哈希见 docs/排除文件清单.json
+# ---------------------------------------------------------------
+
+# macOS 元数据
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Python 运行产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 本机 Python 隔离环境（启动器运行时依赖，按 requirements 重建）
+work/analysis-env/
+.venv/
+venv/
+
+# 第三方上游源码（独立项目，按需自行 clone）
+work/exfat-upstream/
+
+# 设备镜像、测试工作区、回滚数据库：体积达百 GB 级并含真实设备数据
+*.raw
+*.sqlite3
+*.img
+*.dmg
+outputs/交换区读写工作区/
+work/rw-tests/
+
+# 运行时会话、锁、套接字与临时状态
+*.lock
+*.sock
+.last_session
+work/current_reader_session.txt
+work/reader-session/
+outputs/交换区读写工具/.last_session
+
+# 厂商 Windows 客户端二进制（版权归厂商，不进仓库）
+work/usb-copies/
+
+# 从真实交换区导出的文件（含真实业务文档）
+outputs/交换区导出/
+
+# 真实设备元数据原始抓取（含设备身份数据）
+work/device-metadata/*.bin
+
+# 历史构建产物与二进制备份（可用 scripts/build.sh 重建）
+archive/backups/edp-mount.shipped-20261026-2136.bak
+archive/backups/修复备份-20261027/edp-mount
+archive/backups/修复备份-20261027/本机助手-edp-mount
+archive/backups/修复备份-20261027/U盘原版-edp-mount
+
+# 编译中间产物
+build/
+*.o
+*.dSYM/

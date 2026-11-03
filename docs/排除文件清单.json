@@ -1,0 +1,195 @@
+{
+  "generated": "2026-11-02",
+  "policy": "仓库只收源码、文档与可复现证据。设备镜像、真实设备数据、厂商二进制、本机环境不入库。",
+  "verify": "本机执行 python3 scripts/check_excluded.py 可重新计算并比对哈希。",
+  "groups": [
+    {
+      "path": "work/usb-copies",
+      "reason": "厂商 Windows 客户端与驱动二进制，版权归厂商；仅作静态分析对象，不入库",
+      "excluded_files": 7,
+      "excluded_bytes": 14106283,
+      "items": [
+        {
+          "path": "work/usb-copies/EdpDisk.chm",
+          "bytes": 881538,
+          "sha256": "393655558b0da546e813ffa6291596678e16b04ffd1d633affe8ab374ee87d0f"
+        },
+        {
+          "path": "work/usb-copies/EdpEDisk.exe",
+          "bytes": 7107936,
+          "sha256": "cfa1317775801381b6ca51f13857d1e52506ff48ac4df94d7b9f91f742d3e4a1"
+        },
+        {
+          "path": "work/usb-copies/EdpEDisk.mount.dll",
+          "bytes": 413696,
+          "sha256": "18615ddc043b4744ba751d594eb523a3e10c47753811abf36d994f10dc5e7ef6"
+        },
+        {
+          "path": "work/usb-copies/EdpEDisk.x64.sys",
+          "bytes": 59904,
+          "sha256": "f606a9427b9a9e0210ef37f867f983fb0e7dcb24b2fa0f872f63e05c734fad91"
+        },
+        {
+          "path": "work/usb-copies/EdpEDisk.x86.sys",
+          "bytes": 45056,
+          "sha256": "98ef263b90699e9ad166d67b8cbfd3654b1a4f0400b8985c2db69837d6e33c4d"
+        },
+        {
+          "path": "work/usb-copies/EdpEDiskCtrl.extracted.dll",
+          "bytes": 4642657,
+          "sha256": "acd6b882cf72e91aa5134d3adadcd39c1e77d7d4477a5c672eb333b1636d5a6f"
+        },
+        {
+          "path": "work/usb-copies/edpedisk_gjdw.dll",
+          "bytes": 955496,
+          "sha256": "a22e9132d8189dc990e3afa4e41b83a559bdaddcd24348250884585ccd8a0120"
+        }
+      ],
+      "items_note": null
+    },
+    {
+      "path": "outputs/交换区导出",
+      "reason": "从真实交换区导出的业务文档，含真实内容；不入库",
+      "excluded_files": 1,
+      "excluded_bytes": 522016,
+      "items": [
+        {
+          "path": "outputs/交换区导出/样本-文件-01.pdf",
+          "bytes": 522016,
+          "sha256": "2d8230ce1d54db45dd74b6e2ed7d36797b2681a41ac58c270e2e3bc4d720cb6d",
+          "name_anonymized": true
+        }
+      ],
+      "items_note": null
+    },
+    {
+      "path": "work/device-metadata",
+      "reason": "真实设备身份与分区元数据抓取；*.bin 不入库，仅保留 JSON 结论",
+      "excluded_files": 10,
+      "excluded_bytes": 68017,
+      "items": [
+        {
+          "path": "work/device-metadata/capture.json",
+          "bytes": 451,
+          "sha256": "ef3dccc1fd4c0a95fff09689204ed86b8028c5759fded776fd80dcf380541463"
+        },
+        {
+          "path": "work/device-metadata/documented-id-validation.json",
+          "bytes": 162,
+          "sha256": "bd9eea1ed33dc8dc1b2b88698e19979d39e4194da60732d8662debacedd07fcf"
+        },
+        {
+          "path": "work/device-metadata/head.bin",
+          "bytes": 32768,
+          "sha256": "0427ce7ac9d2de22ec773d61adf273ef008e8efa48127dce2b4fdb7dedb5acec"
+        },
+        {
+          "path": "work/device-metadata/header-decoded.bin",
+          "bytes": 47,
+          "sha256": "e3fcb8ff29fb420503940848b42bb2fd2155fd907fc843ebd666cc2cea956569"
+        },
+        {
+          "path": "work/device-metadata/identifier-validation.json",
+          "bytes": 141,
+          "sha256": "f76b7221c1a009363f3edc56f6b8920c6fa09cf841b6d4cf598bec288f3cf3de"
+        },
+        {
+          "path": "work/device-metadata/partition-decoded.bin",
+          "bytes": 512,
+          "sha256": "9c9076af3dac0b8b30a2aa17c03d9e99159dde2ab5640e2c434eb731fa1bf484"
+        },
+        {
+          "path": "work/device-metadata/partition-summary.json",
+          "bytes": 614,
+          "sha256": "4208371fc2373d6687ab4a35b8e7205d47df57f4d812981d5e48322f21dacecb"
+        },
+        {
+          "path": "work/device-metadata/pnp-validation.json",
+          "bytes": 298,
+          "sha256": "016cc0e4e5123a43588622ad38128856425f297e9c8bea12c7e17b6386a4fe8f"
+        },
+        {
+          "path": "work/device-metadata/stored-identity.bin",
+          "bytes": 256,
+          "sha256": "30a9cee44824c1cbe3dba419402d339b1421f1a8925fe66b197e6f6caec863f4"
+        },
+        {
+          "path": "work/device-metadata/tail.bin",
+          "bytes": 32768,
+          "sha256": "25ceae6642f706a78d180ce714f5019912e15f869ee40c905fe46484e6ddc7fd"
+        }
+      ],
+      "items_note": null
+    },
+    {
+      "path": "archive/backups",
+      "reason": "历史备份目录；文本保留，edp-mount 等二进制按 .gitignore 排除",
+      "excluded_files": 4,
+      "excluded_bytes": 2253592,
+      "items": [
+        {
+          "path": "archive/backups/edp-mount.shipped-20261026-2136.bak",
+          "bytes": 548416,
+          "sha256": "f5f55e207a308738eec7ec2220e263db1c9b50315ed12c116cd9aa3184be4300"
+        },
+        {
+          "path": "archive/backups/修复备份-20261027/U盘原版-edp-mount",
+          "bytes": 568392,
+          "sha256": "82fb18e76b1730f881e35b0782e3b6466cc002a9094f7225267315644afdb2a7"
+        },
+        {
+          "path": "archive/backups/修复备份-20261027/edp-mount",
+          "bytes": 568392,
+          "sha256": "82fb18e76b1730f881e35b0782e3b6466cc002a9094f7225267315644afdb2a7"
+        },
+        {
+          "path": "archive/backups/修复备份-20261027/本机助手-edp-mount",
+          "bytes": 568392,
+          "sha256": "82fb18e76b1730f881e35b0782e3b6466cc002a9094f7225267315644afdb2a7"
+        }
+      ],
+      "items_note": null
+    },
+    {
+      "path": "outputs/交换区读写工作区",
+      "reason": "稀疏镜像逻辑容量 53 GiB ×2 与回滚数据库；含真实数据，不入库",
+      "excluded_files": 7,
+      "excluded_bytes": 113197614080,
+      "items": [],
+      "items_note": "文件数过多或体积过大，仅记录汇总；按需在本机重新生成"
+    },
+    {
+      "path": "work/rw-tests",
+      "reason": "读写回归用的合成与真实镜像工作区；体积大且含真实数据，不入库",
+      "excluded_files": 22,
+      "excluded_bytes": 640361984,
+      "items": [],
+      "items_note": "文件数过多或体积过大，仅记录汇总；按需在本机重新生成"
+    },
+    {
+      "path": "work/analysis-env",
+      "reason": "本机 Python 隔离环境（含 capstone/unicorn 等），按 requirements 重建",
+      "excluded_files": 1568,
+      "excluded_bytes": 74139634,
+      "items": [],
+      "items_note": "文件数过多或体积过大，仅记录汇总；按需在本机重新生成"
+    },
+    {
+      "path": "work/exfat-upstream",
+      "reason": "第三方 exFAT 上游源码副本，独立仓库，不入库",
+      "excluded_files": 85,
+      "excluded_bytes": 385899,
+      "items": [],
+      "items_note": "文件数过多或体积过大，仅记录汇总；按需在本机重新生成"
+    },
+    {
+      "path": "work/reader-session",
+      "reason": "运行时套接字与随机会话状态，不可复现，不入库",
+      "excluded_files": 1,
+      "excluded_bytes": 152,
+      "items": [],
+      "items_note": "文件数过多或体积过大，仅记录汇总；按需在本机重新生成"
+    }
+  ],
+  "anonymized": "公开前已把真实业务文件名替换为「样本-文件-NN / 样本-测试-NN」，条目数、大小与 SHA256 保持原样"
+}

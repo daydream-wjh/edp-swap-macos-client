@@ -1,0 +1,10 @@
+{
+  "create_and_persist": true,
+  "rename_modify_shrink": true,
+  "nested_directory_write": true,
+  "injected_failure_restores_entire_source_hash": true,
+  "retry_after_rollback": true,
+  "delete_and_persist": true,
+  "first_commit_changed_sectors": 90,
+  "second_commit_changed_sectors": 42
+}

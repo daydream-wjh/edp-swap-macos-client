@@ -1,0 +1,94 @@
+[
+  {
+    "va": "0x1002cca7",
+    "target": "0x1004f490"
+  },
+  {
+    "va": "0x1002ccee",
+    "target": "0x1002ff50"
+  },
+  {
+    "va": "0x1002ccf9",
+    "target": "0x1002ffa0"
+  },
+  {
+    "va": "0x1002cd08",
+    "target": "0x10003200"
+  },
+  {
+    "va": "0x1002cd1a",
+    "target": "0x10030010"
+  },
+  {
+    "va": "0x1002cd25",
+    "target": "0x10003280"
+  },
+  {
+    "va": "0x1002cd34",
+    "target": "0x1002ff70"
+  },
+  {
+    "va": "0x1002cd41",
+    "target": "0x1001f130"
+  },
+  {
+    "va": "0x1002cd56",
+    "target": "0x1001f130"
+  },
+  {
+    "va": "0x1002cf85",
+    "target": "0x10048939"
+  },
+  {
+    "va": "0x1002cdcc",
+    "target": "0x1003a990"
+  },
+  {
+    "va": "0x1002cddc",
+    "target": "0x1003aa10"
+  },
+  {
+    "va": "0x1002ce15",
+    "target": "dword ptr [0x1006826c]"
+  },
+  {
+    "va": "0x1002ce41",
+    "target": "dword ptr [0x100682dc]"
+  },
+  {
+    "va": "0x1002cea1",
+    "target": "0x10048e63"
+  },
+  {
+    "va": "0x1002ceaf",
+    "target": "0x1002ffa0"
+  },
+  {
+    "va": "0x1002cec1",
+    "target": "0x10003200"
+  },
+  {
+    "va": "0x1002ced3",
+    "target": "0x10030010"
+  },
+  {
+    "va": "0x1002cede",
+    "target": "0x10003280"
+  },
+  {
+    "va": "0x1002ceed",
+    "target": "0x1002ff70"
+  },
+  {
+    "va": "0x1002cef7",
+    "target": "0x1001f130"
+  },
+  {
+    "va": "0x1002cf25",
+    "target": "0x1002fdb0"
+  },
+  {
+    "va": "0x1002cf5b",
+    "target": "0x1002fdb0"
+  }
+]

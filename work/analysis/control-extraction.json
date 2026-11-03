@@ -1,0 +1,8 @@
+{
+  "source": "SECDISKCTRLDLL_187_2052.bin",
+  "header_size": 170,
+  "declared_size": 4642656,
+  "decoded_size": 4642657,
+  "sha256": "acd6b882cf72e91aa5134d3adadcd39c1e77d7d4477a5c672eb333b1636d5a6f",
+  "note": "Decoded output retained in full; declared size is one byte shorter."
+}

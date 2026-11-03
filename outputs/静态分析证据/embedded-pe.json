@@ -1,0 +1,74 @@
+[
+  {
+    "offset": "0x8f49c",
+    "machine": "0x14c",
+    "subsystem": 2,
+    "size": 1268224
+  },
+  {
+    "offset": "0x1c7f64",
+    "machine": "0x14c",
+    "subsystem": 2,
+    "size": 345088
+  },
+  {
+    "offset": "0x21ecc4",
+    "machine": "0x8664",
+    "subsystem": 2,
+    "size": 263168
+  },
+  {
+    "offset": "0x261a24",
+    "machine": "0x14c",
+    "subsystem": 2,
+    "size": 413696
+  },
+  {
+    "offset": "0x29cd8c",
+    "machine": "0x14c",
+    "subsystem": 1,
+    "size": 45056
+  },
+  {
+    "offset": "0x2aa68c",
+    "machine": "0x8664",
+    "subsystem": 1,
+    "size": 59904
+  },
+  {
+    "offset": "0x2c9384",
+    "machine": "0x14c",
+    "subsystem": 2,
+    "size": 154112
+  },
+  {
+    "offset": "0x2f2ef4",
+    "machine": "0x8664",
+    "subsystem": 2,
+    "size": 488448
+  },
+  {
+    "offset": "0x36e464",
+    "machine": "0x14c",
+    "subsystem": 2,
+    "size": 192512
+  },
+  {
+    "offset": "0x3a15d4",
+    "machine": "0x14c",
+    "subsystem": 2,
+    "size": 206848
+  },
+  {
+    "offset": "0x3d7f44",
+    "machine": "0x14c",
+    "subsystem": 2,
+    "size": 399360
+  },
+  {
+    "offset": "0x43c0a4",
+    "machine": "0x14c",
+    "subsystem": 2,
+    "size": 112640
+  }
+]

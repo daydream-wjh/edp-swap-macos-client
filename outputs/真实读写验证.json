@@ -1,0 +1,40 @@
+{
+  "verified_at": "2026-10-26T11:02:00+08:00",
+  "device": "disk6",
+  "tool": "U盘启动区独立启动程序 edp-mount (Swift, universal arm64+x86_64)",
+  "exchange_area": {
+    "offset_bytes": 10485760,
+    "size_bytes": 56598069248,
+    "algorithm": "SM4",
+    "filesystem": "exFAT"
+  },
+  "metadata_decode_matches_reference": true,
+  "password_verified": true,
+  "mount_in_finder": {
+    "mountpoint": "/Volumes/交换区",
+    "visible_files": 13,
+    "note": "挂载后访达可直接浏览，卷属主为当前用户，可读写"
+  },
+  "real_write_test": {
+    "test_file": "EDP读写自检-110056.txt",
+    "bytes": 82,
+    "changed_sectors": 515,
+    "write_readback_verified": true,
+    "remount_persistence_verified": true,
+    "independent_remount_content_identical": true
+  },
+  "cleanup": {
+    "test_file_deleted": true,
+    "delete_changed_sectors": 771,
+    "independent_remount_shows_original_14_entries": true
+  },
+  "original_data_integrity": {
+    "pdf_sha256": "2d8230ce1d54db45ddb6e2ed7d36797b2681a41ac58c270e2e3bc4d720cb6d",
+    "matches_prior_read_verification": true
+  },
+  "notes": [
+    "全程未触碰保密区，未改固件/口令/绑定信息",
+    "写回前把受影响扇区原始密文写入回滚记录，写入后逐扇区回读校验",
+    "真实 U 盘读写验证已完成，不再是仅合成镜像的结果"
+  ]
+}

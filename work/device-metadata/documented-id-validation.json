@@ -1,0 +1,10 @@
+[
+  {
+    "identifier_form": "documented-device-id",
+    "valid_magic": false
+  },
+  {
+    "identifier_form": "documented-disk-id",
+    "valid_magic": false
+  }
+]

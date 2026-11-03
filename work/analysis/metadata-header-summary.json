@@ -1,0 +1,20 @@
+{
+  "header_envelope_valid": true,
+  "header_check_valid": true,
+  "header_magic": "LLGB",
+  "metadata_selector_bytes": [
+    8,
+    4,
+    12,
+    1
+  ],
+  "boot_filesystem": {
+    "bytes_per_sector": 512,
+    "sectors_per_cluster": 8,
+    "total_sectors": 20417,
+    "cluster_count": 2545,
+    "type": "FAT12"
+  },
+  "partition_record_status": "Not decoded; identifier derivation remains unverified",
+  "scope": "Captured metadata only; no authentication attempt or device write"
+}

@@ -1,0 +1,159 @@
+{
+  "saves": {
+    "new_128mib": {
+      "seconds_wall": 10.531426291999999,
+      "seconds_reported": 9.830939124998622,
+      "mib_s_reported": 13.059009173629482,
+      "last_sync": {
+        "changed_bytes": 134618624,
+        "changed_sectors": 262927,
+        "journal": "20261027-165804-84232.jrn",
+        "verification": "full_changed_ranges",
+        "verified_bytes": 134618624
+      },
+      "error": "",
+      "phase": "已加密保存到 U 盘，并完整回读全部改动数据"
+    },
+    "overwrite_and_create": {
+      "seconds_wall": 8.535960334000002,
+      "seconds_reported": 8.399528416666726,
+      "mib_s_reported": 0.3723353563569579,
+      "last_sync": {
+        "changed_bytes": 3279360,
+        "changed_sectors": 6405,
+        "journal": "20261027-165814-94353.jrn",
+        "verification": "full_changed_ranges",
+        "verified_bytes": 3279360
+      },
+      "error": "",
+      "phase": "已加密保存到 U 盘，并完整回读全部改动数据"
+    },
+    "rename_truncate_zero": {
+      "seconds_wall": 4.366998625000001,
+      "seconds_reported": 4.1060569583332835,
+      "mib_s_reported": 0.39623247838734493,
+      "last_sync": {
+        "changed_bytes": 1705984,
+        "changed_sectors": 3332,
+        "journal": "20261027-165823-3025.jrn",
+        "verification": "full_changed_ranges",
+        "verified_bytes": 1705984
+      },
+      "error": "",
+      "phase": "已加密保存到 U 盘，并完整回读全部改动数据"
+    },
+    "no_change": {
+      "seconds_wall": 4.2523922090000035,
+      "seconds_reported": 4.003927250001652,
+      "mib_s_reported": 0.00024390115979245052,
+      "last_sync": {
+        "changed_bytes": 1024,
+        "changed_sectors": 2,
+        "journal": "20261027-165827-7394.jrn",
+        "verification": "full_changed_ranges",
+        "verified_bytes": 1024
+      },
+      "error": "",
+      "phase": "已加密保存到 U 盘，并完整回读全部改动数据"
+    },
+    "no_change_retry": {
+      "seconds_wall": 4.171012750000003,
+      "seconds_reported": 3.9991332499994314,
+      "mib_s_reported": 0,
+      "last_sync": {
+        "changed_bytes": 0,
+        "changed_sectors": 0,
+        "journal": ""
+      },
+      "error": "",
+      "phase": "已加密保存检查完成：无改动，本轮未写入"
+    }
+  },
+  "checks": {
+    "old_mount_error_cleared": true,
+    "originals_before_match": true,
+    "new_128mib_error_cleared": true,
+    "new_128mib_full_readback": true,
+    "new_128mib_timing_includes_wait": true,
+    "new_file_hash_matches": true,
+    "overwrite_and_create_error_cleared": true,
+    "overwrite_and_create_full_readback": true,
+    "overwrite_and_create_timing_includes_wait": true,
+    "rename_truncate_zero_error_cleared": true,
+    "rename_truncate_zero_full_readback": true,
+    "rename_truncate_zero_timing_includes_wait": true,
+    "no_change_error_cleared": true,
+    "no_change_full_readback": true,
+    "no_change_timing_includes_wait": true,
+    "no_change_retry_error_cleared": true,
+    "no_change_retry_timing_includes_wait": true,
+    "no_change_detected": true,
+    "originals_after_match": true,
+    "fresh_mount_error_cleared": true,
+    "fresh_Codex修复回归-20261027-最终": true,
+    "fresh_Codex修复回归-20261027": true,
+    "fresh_originals_match": true,
+    "cleanup_complete_readback": true,
+    "final_normal_mount_originals_match": true,
+    "final_normal_mount_test_dirs_absent": true,
+    "final_error_clear": true
+  },
+  "started": "2026-10-27 16:57:53",
+  "expected": {
+    "缩短.txt": {
+      "size": 16,
+      "sha256": "6d54c3af53e6e668ed12e5d8a1c7c7a05005007a5e1e1dea661a8587b75c6bd2"
+    },
+    "._缩短.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "._中文 空格 😀": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "中文 空格 😀/重命名.bin": {
+      "size": 134217728,
+      "sha256": "d89ba3d750118014d8f7b7296fb1197ba352970c99ca204ac39f5c323cc8d79b"
+    },
+    "中文 空格 😀/._重命名.bin": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "中文 空格 😀/空文件.txt": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "中文 空格 😀/._空文件.txt": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    },
+    "中文 空格 😀/全零.bin": {
+      "size": 1048576,
+      "sha256": "30e14955ebf1352266dc2ff8067e68104607e750abb9d3b36582b8af909fcb58"
+    },
+    "中文 空格 😀/._全零.bin": {
+      "size": 4096,
+      "sha256": "c9c8f37a950426a2633cf5e284b5c9a9a00e99fbe4ac4447a195517e9cdf753c"
+    }
+  },
+  "status": "passed",
+  "fresh_import_seconds_including_launch": 43.1653356552124,
+  "fresh_import_logical_read_mib": 4170.552450180054,
+  "cleanup": {
+    "directories_removed": true,
+    "phase": "已加密保存到 U 盘，并完整回读全部改动数据",
+    "last_sync": {
+      "changed_bytes": 13824,
+      "changed_sectors": 27,
+      "journal": "20261027-170013-13256.jrn",
+      "verification": "full_changed_ranges",
+      "verified_bytes": 13824
+    },
+    "seconds": 3.9422976669999983
+  },
+  "tool_sha256": "beb2a0413faafa85f457b932ae646007f22d847e13c2c90ab6a627013374ae54",
+  "normal_session_restored": true,
+  "temporary_plaintext_images_removed": true,
+  "finished": "2026-10-27 17:03:12"
+}

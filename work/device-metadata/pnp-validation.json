@@ -1,0 +1,18 @@
+[
+  {
+    "identifier_form": "USBSTOR-short",
+    "valid_magic": false
+  },
+  {
+    "identifier_form": "USBSTOR-model",
+    "valid_magic": false
+  },
+  {
+    "identifier_form": "USB-parent",
+    "valid_magic": false
+  },
+  {
+    "identifier_form": "USB-parent-short",
+    "valid_magic": false
+  }
+]
