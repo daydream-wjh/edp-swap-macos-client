@@ -8,14 +8,27 @@
 | `edp-mount` | 现存挂载器构建产物 |
 | `edp-universal` | 现存通用架构构建产物 |
 | `EDP交换区.command` | 挂载、保存、退出和弹出菜单入口 |
+| `EDP-立即保存.command` | 无菜单窗口时的一次性保存：加密写回 + 全量回读校验 |
+| `EDP-保存并退出.command` | 保存 → 卸载交换区 → 挂回启动区 → 可安全拔线 |
 | `使用说明.txt` | 终端用户操作说明 |
 | `安装免密码.command` | 可选的本机安装配置脚本，使用前查看脚本内容 |
 
 ## 使用入口
 
-先阅读 [使用说明.txt](使用说明.txt)。当前入口脚本会读取 U 盘 `/Volumes/启动区` 下的程序，并将脚本复制到本机缓存后运行；本目录主要用于保存源码和交付文件。不要将双击本目录脚本等同于已经把本目录程序部署到 U 盘。
+先阅读 [使用说明.txt](使用说明.txt)。`EDP交换区.command` 会把手上的这份脚本复制到本机缓存再运行，并从 `/Volumes/启动区` 取同版本的 `edp-mount`；本目录既是源码目录，也是部署来源。
 
-本次整理没有安装本机助手、修改钥匙串或 sudoers，也没有部署文件到 U 盘。
+把入口部署到 U 盘启动区（启动区需处于挂载状态）：
+
+```bash
+./scripts/deploy_boot_area.sh            # 默认目标 /Volumes/启动区
+./scripts/deploy_boot_area.sh /Volumes/启动区
+```
+
+脚本会校验目标卷是 FAT、核对空间、复制 `EDP交换区.command` / `EDP-立即保存.command` / `EDP-保存并退出.command` / `edp-mount` / `使用说明.txt`，最后用 `dot_clean` 清掉 FAT 上的 AppleDouble `._` 文件。
+
+启动区容量只有 10.5 MB（厂商 Windows 客户端已占约 8.9 MB），`edp-mount` 占 618 KB。本机装了 `/usr/local/libexec/edp-mount` 时不必随盘携带该二进制，删掉可退回约 1.4 MB。
+
+2026-11-15 已在真盘部署过一次：启动区现有 3 个入口脚本、`edp-mount` 与 `使用说明.txt`，部署后剩余 868 KiB。本机保存行为为手动模式（`~/Library/Caches/edp-mount/autosave.conf` 内容为 `off`）。
 
 ## 当前保存行为说明
 

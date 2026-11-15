@@ -48,12 +48,19 @@ Windows 下的原始链路            macOS 上的替代链路（本项目）
 
 ## 快速开始
 
-### 使用者（三步，一次配置）
+### 使用者（四步，一次配置）
 
 1. 插入 U 盘，等访达出现「启动区」。
 2. 双击 `outputs/启动程序源码/安装免密码.command`（只需一次）：输一次 Mac 管理员密码安装本机帮助程序，再输一次交换区口令存进钥匙串。
    免密是通过一条只允许执行 `/usr/local/libexec/edp-mount` 的 `sudoers` 规则实现的，不是给整个程序提权。
-3. 以后双击 `EDP交换区.command` → 自动挂载到 `/Volumes/交换区`；退出时用菜单「立即保存 / 保存并退出 / 保存并弹出」。
+3. 把入口部署到启动区（只需一次，之后插到任何装好帮助程序的 Mac 上都能直接双击）：
+   ```bash
+   ./scripts/deploy_boot_area.sh
+   ```
+4. 以后双击启动区里的 `EDP交换区.command` → 自动挂载到 `/Volumes/交换区`；退出时用菜单「立即保存 / 保存并退出 / 保存并弹出」。
+
+启动区里有两个不带菜单的补充入口：`EDP-立即保存.command`（只保存一次）和 `EDP-保存并退出.command`（保存后卸载交换区、挂回启动区）。
+挂载期间启动区会从访达消失，这是程序独占整张卡的正常现象。
 
 卸载：`sudo rm /etc/sudoers.d/edp-mount /usr/local/libexec/edp-mount` 加 `security delete-generic-password -s edp-exchange-password`。
 完整操作细节见 [使用说明](outputs/启动程序源码/使用说明.txt)，技术原理见 [技术文档](docs/reports/技术文档-EDP交换区macOS客户端.md)。
@@ -103,7 +110,7 @@ work/analysis-env/bin/pip install -r "outputs/交换区只读浏览器/requireme
 │   ├── 补丁验证/ 修复回归/    数据安全补丁与真盘/模拟盘回归
 │   └── device-metadata/      设备元数据抓取结论
 ├── archive/backups/          原修复备份与旧版程序（二进制不入库）
-└── scripts/                  build.sh / verify.sh / check_*.py
+└── scripts/                  build.sh / verify.sh / deploy_boot_area.sh / check_*.py
 ```
 
 源码、Python 隔离环境、工作镜像与会话文件的**原路径保留**，以维持工具间的相对引用。
@@ -133,6 +140,7 @@ work/analysis-env/bin/pip install -r "outputs/交换区只读浏览器/requireme
 | 真盘只读 | exFAT 识别、20 条根目录、文件下载哈希一致 | [交换区读取完成报告](docs/reports/交换区读取完成报告.md) |
 | 真盘读写 | 写入 → 回读 → 独立重挂载内容一致 → 删除后恢复原 14 条 | `outputs/真实读写验证.json` |
 | 保存/校验修复 | 短读与校验差异判失败、失败不弹盘、全量回读 | [验证证据](outputs/验证证据/) |
+| 真盘复挂与启动区部署（2026-11-15） | 免密链路 selftest 通过、3 次保存全量校验通过、启动区 5 个文件就位；同时记录卷被意外卸载的未定位现象 | [复挂记录](outputs/验证证据/20261115-启动区入口部署与真盘复挂.md) |
 | 保密区 | 全程未访问 | 各阶段报告 |
 
 报告与日志记录的是**当时**的验证结果；仓库整理没有重新执行真盘读写、安装、挂载或部署。历史性能数字与现行说明冲突时，以源码和对应日期的证据为准。
